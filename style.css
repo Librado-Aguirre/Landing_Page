@@ -3,8 +3,7 @@ body {
     flex-direction: column;
      
 }
-header {
-   
+header {  
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -26,3 +25,37 @@ header {
     display: flex;
     gap: 16px;   
 }
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.hero_container_1, .hero_container_2{
+    width: 390px;
+    height: auto;
+    margin-right: 32px;
+}
+.hero_container_2{
+    background-color: #e5e7eb;
+    width: 390px;
+    height: 240px;
+}
+.hero_image {
+    text-align: center;
+}
+button.sign_up {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+.hero_main_text {
+font-size: 48px;
+font-weight: bolder;
+color:#f9faf8
+}
+.hero_sec_tex {
+    font-size: 18px;
+    color:#e5e7eb
+}
+
