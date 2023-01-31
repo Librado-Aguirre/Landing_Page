@@ -1,14 +1,15 @@
 body {
+    display: flex;
     background-color: #1f2937;
     flex-direction: column;
-     
+ 
 }
 header {  
     display: flex;
     align-items:center;
     justify-content: space-between;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 64px;
+    padding-right: 64px;
 }
 
 .logo {
@@ -42,12 +43,14 @@ header {
 }
 .hero_image {
     text-align: center;
+    border-radius: 8px;
 }
 button.sign_up {
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 8px;
     padding: 8px 32px;
+    border-color: #f9faf8;
 }
 .hero_main_text {
 font-size: 48px;
@@ -59,3 +62,106 @@ color:#f9faf8
     color:#e5e7eb
 }
 
+.content {
+    text-align: center;
+    background-color: aliceblue;
+    height: 220px;
+    margin-top: 32px;
+    padding: 48px;
+    
+}
+.content_title {
+    font-size: 36px;
+    font-weight:bolder;
+    color:black;
+    margin-bottom: 24px;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap:52px;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.info {
+    max-width: 200px;
+}
+.quote_div {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 32px;   
+  
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color:#1f2937;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: 0px;
+    align-items: center;
+}
+.footer_container {
+background-color:white;
+height: 320;
+margin-top: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.footer{
+    background-color: #3882f6;
+    text-align: justify;
+    width: 800px;
+    margin: 14px;
+    border-radius: 18px;
+    box-shadow: 2px 4px 16px;
+    justify-content: space-around;
+}
+.footer_main_text {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bolder;
+    color:#f9faf8;
+    background-color: #3882f6;
+    padding-top 14px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 0;
+}
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 0;
+    padding-bottom: 14px;
+}
+.footer_sec_tex {
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+    margin-right: 14px;
+    justify-content: space-around;
+    font-size: 16px;
+    background-color: #3882f6;
+    color:#e5e7eb;
+    width: 450px;
+}
+footer {
+    display: flex;
+    padding: 16px;
+    color: #f9faf8;
+    justify-content: center;
+}
